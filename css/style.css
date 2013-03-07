@@ -1,0 +1,90 @@
+/*styles for Katie Urey web site 
+
+My coaches: http:\\learnlayout.com 
+
+*/
+
+
+@media screen and (min-width:600px) {
+  nav {
+    float: left;
+    /*width: 25%;*/
+    height: 9%;
+  }
+  section {
+    margin-left:5%;
+  }
+}
+@media screen and (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+   font-size: 100%;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,verdana,sans-serif;
+}
+
+
+nav{
+	display block;
+	opacity 1;
+	font-size: 1.2 em;
+	float left;
+	}
+	
+	
+body {
+	float: left;
+	margin-right: 4%;
+	width: 70%;
+	margin-bottom: 50 px;
+}
+
+
+ul {
+	list-style: none outside none;}
+
+
+img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+
+
+
+section {
+  /* position is static by default */
+margin-bottom: 0;
+
+}
+
+	
+.Caps {
+	font-variant: small-caps;	
+	font-weight:bold;
+	}	
+
+li {
+	list-style-type: none;
+	margin-bottom:  1em;}
+	
+a {
+	text-decoration: none;
+	}
+	
+link {
+	}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 50px;
+  background-color: white;
+  width: 100%;
+}
