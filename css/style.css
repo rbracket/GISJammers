@@ -41,7 +41,7 @@ body {
 	float: left;
 	margin-right: 4%;
 	width: 70%;
-	margin-bottom: 50 px;
+	margin-bottom: 70 px;
 }
 
 
@@ -83,8 +83,9 @@ link {
 footer {
   position: fixed;
   bottom: 0;
-  left: 0;
-  height: 50px;
+  text-align: center;
+  height: 60px;
   background-color: white;
-  width: 100%;
+  width: 70%;
+  padding-bottom: 1px;
 }
